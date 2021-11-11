@@ -66,10 +66,10 @@ namespace TehGM.ConsoleProgressBar
         public string PercentageFormat { get; set; } = "0%";
         /// <summary>Left side of the progress bar.</summary>
         /// <remarks>Default is "[ ".</remarks>
-        public string BarOpening { get; set; } = "[ ";
+        public string BarOpening { get; set; } = "[";
         /// <summary>Right side of the progress bar.</summary>
         /// <remarks>Default is " ]".</remarks>
-        public string BarClosing { get; set; } = " ] ";
+        public string BarClosing { get; set; } = "]";
         /// <summary>Text currently displayed with the bar. Read-only.</summary>
         /// <seealso cref="Update(double, string, string[])"/>
         /// <seealso cref="Write(string, string[])"/>
